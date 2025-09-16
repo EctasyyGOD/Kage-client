@@ -12,7 +12,7 @@ import catto.uwu.module.api.Module;
 import catto.uwu.module.api.ModuleData;
 import catto.uwu.utils.player.Rotation;
 
-@ModuleData(name = "Scaffold", description = "Automatically places blocks under you", category = Category.WORLD)
+@ModuleData(name = "Scaffold", description = "bota bloco pra vc", category = Category.WORLD)
 public class Scaffold extends Module {
     private final NumberSetting delay = new NumberSetting("Delay", this, 0, 0, 1000, false);
     private final BooleanSetting safewalk = new BooleanSetting("Safewalk", this, true);
